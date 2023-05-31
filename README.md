@@ -39,3 +39,40 @@
   The function add only returns an uint value and this is indicated by using the pure keyword
 
   The external keyword shows that the function can be called after the contract has been deployed
+
+#### 4 Variables
+
+- State Variables
+  Variables that are assigned a value and are stored on the Blockchain , they are global variables and can be accessed anywhere within the contract
+
+EX:
+contract StateVariables {
+// testUint is a state variable
+uint public testUint= 123;
+
+}
+
+- Local Variables
+  Variables that are assigned a value and are stored on the Blockchain , they are local variables and can be accessed only within the function they are defined in
+
+EX:
+
+contract LocalVariables {
+// testUint is a state variable
+uint public testUint= 123;
+bool public c=true;
+function localFunction() external {
+uint x = 123;
+bool d= true;
+
+        x+= 234;
+        d=false;
+
+        //setting the State variables , once localFunction() is called
+        //testUint and c are set to 234 and false respectively
+
+        testUint=4994;
+        c=false;
+
+}
+}
