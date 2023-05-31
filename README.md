@@ -57,14 +57,13 @@ uint public testUint= 123;
 
 EX:
 
-contract LocalVariables {
-// testUint is a state variable
-uint public testUint= 123;
-bool public c=true;
-function localFunction() external {
-uint x = 123;
-bool d= true;
-
+    contract LocalVariables {
+    // testUint is a state variable
+    uint public testUint= 123;
+    bool public c=true;
+        function localFunction() external {
+        uint x = 123;
+        bool d= true;
         x+= 234;
         d=false;
 
@@ -73,6 +72,6 @@ bool d= true;
 
         testUint=4994;
         c=false;
+    }
 
-}
 }
