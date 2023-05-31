@@ -75,3 +75,16 @@ EX:
     }
 
 }
+
+-Global Variables
+
+Examples of Global variables are:
+
+- msg.sender
+  data type is address and it stores the address of the account , that calls the specific function
+
+- block.timestamp
+  global variable that stores the UNIX timestamp of when the function was called
+
+- block.number
+  stores the current block number
