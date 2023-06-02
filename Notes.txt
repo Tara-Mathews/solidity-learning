@@ -1,0 +1,12 @@
+
+// Installation
+
+npm install --save-dev hardhat
+
+//Package Installation
+
+@nomicfoundation/hardhat-toolbox
+
+
+
+ npx hardhat run scripts/deploy.js

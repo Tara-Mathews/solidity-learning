@@ -6,7 +6,7 @@ contract GlobalVariables {
         //msg.sender is a Global Variable that stores the address that calls the function
       address sender=  msg.sender;
 
-      //block.timestamp is a global variable that stores the UNIX timestamp of when the function was called
+      //block.timestamp is a global variable that stores the UNIX timestamp of when the contract was deployed
       uint timestamp= block.timestamp;
 
  //block.number stores the current  block number
