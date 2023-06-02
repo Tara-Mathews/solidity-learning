@@ -76,7 +76,7 @@ EX:
 
 }
 
--Global Variables
+- Global Variables
 
 Examples of Global variables are:
 
